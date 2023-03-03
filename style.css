@@ -28,12 +28,18 @@ body {
 button {
     border: 1px rgb(255, 55, 55) solid;
     border-radius: 5px;
-    padding: 10px 200px;
+    padding: 10px 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-.col {
+.col, .row {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.col {
     flex-direction: column;
 }
