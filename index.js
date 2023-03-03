@@ -13,5 +13,4 @@ function convertToHalfBold() {
 
 function reset() {
     document.getElementById("text").textContent = "";
-    
 }
