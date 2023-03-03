@@ -1,0 +1,39 @@
+* {
+    background-color: rgb(30, 30, 30);
+    color: rgb(230, 230, 230);
+    font-size: 1.05em;
+    font-family:'Arial'
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 75px 10px;
+    
+}
+
+#text {
+    border: 1px rgb(255, 55, 55) solid;
+    border-radius: 5px;
+    height: 75vh;
+    width: 60vw;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+    line-height: 150%;
+    padding: 2px;
+}
+
+button {
+    border: 1px rgb(255, 55, 55) solid;
+    border-radius: 5px;
+    padding: 10px 200px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
